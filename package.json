@@ -16,6 +16,7 @@
     "array-flatten": "^1.1.1",
     "balanced-match": "^1.0.2",
     "base64-js": "^1.5.1",
+    "bcrypt": "^5.1.1",
     "bcryptjs": "^3.0.0",
     "binary-extensions": "^2.3.0",
     "bindings": "^1.5.0",
@@ -214,5 +215,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esteban16-rgb/examen-final.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Esteban16-rgb/examen-final/issues"
+  },
+  "homepage": "https://github.com/Esteban16-rgb/examen-final#readme"
 }
