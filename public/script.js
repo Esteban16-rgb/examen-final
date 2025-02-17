@@ -1,4 +1,4 @@
-// Esteban Gonzalez
+// Esteban Gonzalez b
 document.getElementById("registerForm").addEventListener("submit", async (event) => {
     event.preventDefault();
 
