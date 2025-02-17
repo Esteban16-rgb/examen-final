@@ -1,0 +1,51 @@
+<!-- Esteban Gonzalez -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Producto</title>
+  <link rel="stylesheet" href="product.css">
+</head>
+<body>
+
+  <div class="background"></div>
+
+  <div class="product-wrapper">
+    <header>
+      <h1>Producto</h1>
+      <a href="index.html" class="login-link">Iniciar sesión</a>
+    </header>
+
+    <div class="product-container">
+      <div class="product-image">
+        <img id="productImage" src="/imagenes/camisa_roja.jpg" alt="Camiseta Futurista">
+      </div>
+
+      <div class="product-details">
+        <h2>Camiseta Futurista</h2>
+        <div class="input-group">
+          <label for="color">Color:</label>
+          <select id="color">
+            <option value="roja">Roja</option>
+            <option value="negro">Negro</option>
+            <option value="azul">Azul</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label for="size">Talla:</label>
+          <select id="size">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+          </select>
+        </div>
+        <button id="saveProduct">Guardar selección</button>
+        <p id="productMessage"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="product.js"></script>
+</body>
+</html>
